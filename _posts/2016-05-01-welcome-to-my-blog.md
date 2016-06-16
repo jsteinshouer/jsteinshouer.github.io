@@ -5,13 +5,11 @@ subtitle: "My first blog post!"
 date:   2016-06-14 22:34:01
 categories: [tools]
 ---
-I decided to try out using [Jekyll][jekyll] to build a personal blog. It is a static site generator and also the engine behind [Github Pages][gh-pages]. This is appealing since I can host my site there for free. This first posts focuses on setting up my development environment to get started with Jekyll.
+I decided to try out using [Jekyll][jekyll] to build a personal blog. It is a static site generator and also the engine behind [Github Pages][gh-pages]. This is appealing since I can host my site there for free. This first post focuses on setting up my development environment to get started with Jekyll.
 
 First, I found a Jekyll theme that I liked. I used [Daktilo](https://github.com/kronik3r/daktilo) and copied it to my project folder.
 
 As of this writing Jekyll is not officially supported on Windows. Since I was working in Windows I decided to use [Vagrant][vagrant] to setup my development environment as a virtual machine. Vagrant is a tool that helps automate the creation of development environments using virtual machines. With vagrant I can do my Jekyll development on a linux virtual machine. I already had [Vagrant][vagrant] and [Virtual Box][vbox] installed on my windows machine. 
-
-virtual machine with [Jekyll][jekyll] and all of its [dependencies][jekyll-install].  
 
 I found [this Github repository](https://github.com/jsturtevant/jekyll-vagrant) with a Vagrant config and Linux shell script to install Jekyll and all of its [dependencies][jekyll-install]. I downloaded repo and copied the `Vagrantfile` and `boostrap.sh` files to my project directory.
 
