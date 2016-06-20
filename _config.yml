@@ -4,7 +4,7 @@ description: >
  Personal notes on web development and technology. If it helps someone else, thats nice too.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "jason.steinshouer.net" # the base hostname & protocol for your site
+url: "http://jasonsteinshouer.com" # the base hostname & protocol for your site
 
 author:
   fullname: Jason Steinshouer
