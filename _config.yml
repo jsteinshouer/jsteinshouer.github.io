@@ -11,9 +11,9 @@ author:
   #googleplus: https://www.google.com/+MotaquillahMaddane
   github: jsteinshouer
   twitter: jdsteinshouer
-  # disqus: your_disqus_forum_shortname
+  disqus: jasonsteinshouer
 
-# google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-80138644-1'
 
 # Syntax highlighting
 highlightstyle: ''
