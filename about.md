@@ -17,6 +17,6 @@ It is more or less a platform for me to document things I am learning, working o
 
 ## **More about this blog**
 
-This site is generated using [jekyll](http://jekyllrb.com). The theme is a customized version of [Daktilo](http://daktilo.github.io/).
+This site is generated using [jekyll](http://jekyllrb.com). The theme is a customized version of [Daktilo](http://daktilo.github.io/). The color scheme is based on [Solarized](http://ethanschoonover.com/solarized).
 
 
