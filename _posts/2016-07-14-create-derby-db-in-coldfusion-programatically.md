@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Using the Apache Derby Embedded Database in Adobe Coldfusion"
+title:  "Programatically Create an Apache Derby Database in Adobe Coldfusion"
 subtitle: ""
 categories: [CFML]
-tags: [cfml,coldfusion]
+date:   2016-07-14 11:56:01
+tags: [cfml,coldfusion,derby]
 ---
 
-With [Lucee] you can add a datasource for the [H2] embedded database and if the database doesnt exist it will be created. 
+With [Lucee] you can add a datasource for the [H2] embedded database and if the database doesnt exist it will be created automatically. This can be handy if you have some automated setup routine for your application.
 
 {% highlight cfscript %}
 this.datasources["myDsn"] = {
@@ -15,7 +16,7 @@ this.datasources["myDsn"] = {
 };
 {% endhighlight %}
 
-However, if you want to use an embedded Apache Derby database with Adobe Coldfusion the database must exist or it will throw an error. You can use the Java JDBC driver to Apache Derby to create the database if it does not exist. 
+However, if you want to use an embedded [Apache Derby] database with Adobe Coldfusion the database must exist or it will throw an error. You can use the Java JDBC driver for Apache Derby to create the database if it does not exist. 
 
 {% highlight cfscript %}
 
@@ -40,7 +41,10 @@ this.datasources["myDsn"] = {
 };
 {% endhighlight %}
 
+This opens a connection with the Apache Derby JDBC driver and passed `create=true` to create the database.
 
-[H2]:      http://www.h2database.com/html/main.html
+
+[H2]: http://www.h2database.com/html/main.html
 [Lucee]: http://lucee.org/
+[Apache Derby]: https://db.apache.org/derby/
 
