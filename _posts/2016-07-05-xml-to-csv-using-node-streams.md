@@ -38,7 +38,7 @@ var options = {
       'charset': 'utf-8'
   },
   body: 'Put your SOAP Request XML here'
-};;
+};
 {% endhighlight %}
 
 I initially tried to stream directly from the http request to xml-stream but has some issues and did not spend much time troubleshooting it. I decided to write the XML to file first then process it.
