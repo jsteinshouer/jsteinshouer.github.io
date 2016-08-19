@@ -2,7 +2,6 @@
 layout: post
 title:  "Sample post from Daktilo"
 subtitle: "What you can do with it!"
-date:   2014-08-19 23:56:45
 categories: [tool]
 ---
 
