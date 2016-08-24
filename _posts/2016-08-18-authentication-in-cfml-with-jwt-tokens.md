@@ -35,9 +35,9 @@ Next use [CommandBox] to install the [cf-jwt-simple] package.
 install cf-jwt-simple
 {% endhighlight %}
 
-[cf-jwt-simple] requires a secret key that is used to signing and verification. I will add the key as a setting in **config/Coldbox.cfc**. Remember to change the secret key to some something more secure than this. Use something random and long as the key should be secure and unique to your application.
+[cf-jwt-simple] requires a secret key that is used to signing and verification. I will add the key as a setting in `config/Coldbox.cfc`. Remember to change the secret key to some something more secure than this. Use something random and long as the key should be secure and unique to your application.
 
-### config/Coldbox.cfc
+**config/Coldbox.cfc**
 
 {% highlight cfscript %}
 // custom settings
@@ -57,9 +57,9 @@ settings = {
 };
 {% endhighlight %}
 
-I will add a wirebox mapping for the JWT in **config/Wirebox.cfc**. This will initialize the JWT library with the secret key that was setup in the previous step. See the [Wirebox Documentation](http://wirebox.ortusbooks.com/content/mapping_dsl/) for more info in setting up bindings.
+I add a wirebox mapping for the JWT in `config/Wirebox.cfc`. This will initialize the JWT library with the secret key that was setup in the previous step. See the [Wirebox Documentation](http://wirebox.ortusbooks.com/content/mapping_dsl/) for more info in setting up bindings.
 
-### config/Wirebox.cfc
+**config/Wirebox.cfc**
 
 {% highlight cfscript %}
 // Map Bindings below
@@ -74,15 +74,15 @@ Here I will use [CommandBox] to create a new model component named Authenticatio
 coldbox create model name="security/AuthenticationService" properties="jwt:any" accessors=true open=true tests=false
 {% endhighlight %}
 
-### models/AuthenticationService.cfc
+**models/AuthenticationService.cfc**
 
-I will inject the JWT component into AuthenticationService using wirebox.
+I then inject the JWT component into AuthenticationService using wirebox.
 
 {% highlight cfscript %}
 property name="jwt" type="any" inject="jwt";
 {% endhighlight %}
 
-I will also inject the expiration setting. 
+I also inject the expiration setting. 
 
 {% highlight cfscript %}
 property name="tokenExpiration" type="numeric" inject="coldbox:setting:accessTokenExpiration";
@@ -145,7 +145,7 @@ public boolean function validateToken(required string accessToken) {
 }
 {% endhighlight %}
 
-I will also add a method to decode the token and return the data encoded within the token
+I also add a method to decode the token and return the data encoded within the token
 
 {% highlight cfscript %}
 public struct function decodeToken(accessToken) {		
@@ -155,15 +155,15 @@ public struct function decodeToken(accessToken) {
 
 ## Handlers
 
-Here I will use [CommandBox] to create a new handler component named **Authenticate.cfc**. It will be responsible for handling authentication requests.
+Here I use [CommandBox] to create a new handler component named `Authenticate.cfc`. It will be responsible for handling authentication requests.
 
 {% highlight bash %}
 coldbox create handler actions="index" name="Authenticate" views=false integrationTests=false open=true
 {% endhighlight %}
 
-I then modify the handler to extend **BaseHandler**. I also restrict the request to the http POST method by setting the `this.allowedMethods` property. Finally I modify the index action to validate the username and password using the authService. It will return an access token if the authentication is successful. I inject the authService into the BaseHandler next so no need to do it here. 
+I then modify the handler to extend `BaseHandler`. I also restrict the request to the http POST method by setting the `this.allowedMethods` property. Finally I modify the index action to validate the username and password using the authService. It will return an access token if the authentication is successful. I inject the authService into the BaseHandler next so no need to do it here. 
 
-### handlers/Authenticate.cfc 
+**handlers/Authenticate.cfc**
 
 {% highlight cfscript %}
 component extends="BaseHandler" {
@@ -203,9 +203,9 @@ component extends="BaseHandler" {
 }
 {% endhighlight %}
 
-### handlers/BaseHandler.cfc
+**handlers/BaseHandler.cfc**
 
-Then I modify **handlers/BaseHandler.cfc** and inject the AuthenticationService. 
+Then I modify `handlers/BaseHandler.cfc` and inject the AuthenticationService. 
 
 {% highlight cfscript %}
 property name="authService" type="any" inject="security.AuthenticationService";
@@ -284,7 +284,7 @@ coldbox create bdd name=integration/AuthenticationTests open=true
 
 Here is the test suite I used verify that it is working.
 
-### tests/specs/integration/AuthenticationTests.cfc
+**tests/specs/integration/AuthenticationTests.cfc**
 
 {% highlight cfscript %}
 // all your suites go here.
