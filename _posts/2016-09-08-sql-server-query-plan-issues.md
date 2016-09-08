@@ -7,7 +7,7 @@ categories: [tools]
 tags: [sql,sql server]
 ---
 
-I was recently tasked with building a complex report. I wrote a SQL Server stored procedure to return the data. It accepts 5 parameters and has complicated logic. It seemed to run fine at first but I started noticing performance issues when certain parameters were used. The issues seemed to go away if the sql service was restarted. Also, when I executed it in the SQL Server Management Studio it ran fine but would never finish whe the same stored procedure was executed from the application. 
+I was recently tasked with building a complex report. I wrote a SQL Server stored procedure to return the data. It accepts 5 parameters and has complicated logic. It seemed to run fine at first but I started noticing performance issues when certain parameters were used. The issues seemed to go away if the sql service was restarted. Also, when I executed it in the SQL Server Management Studio it ran fine but would never finish when the same stored procedure was executed from the application. 
 
 After some googling I came across [this article](http://www.sommarskog.se/query-plan-mysteries.html) that described the problem I was having. I knew that SQL Server cached the query execution plans but I did not consider that the plan maybe optimized for one set of parameters and not for another set. 
 
