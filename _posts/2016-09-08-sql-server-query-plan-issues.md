@@ -21,3 +21,13 @@ EXEC spu_my_complex_report @param1, @param2,...;
 
 This solves the problem but a possibly better solution may be to compare execution plans using the different parameters and write a seperate stored procedure for the combination that is causing the execution plan to differ from the others. This may cause duplication of some of the logic but would probably increase the efficiency of the report. 
 
+## UPDATE: 
+
+Using `sp_recompile` was throwing the folling error when more than one instance of the report was ran at the same time:
+
+{% highlight bash %}
+Msg 2801, The definition of object 'spu_my_complex_report' has changed since it was compiled.
+{% endhighlight %}
+
+So I went ended up spliting the logic into two different stored procedures which was a better solution anyway. It seems to be working well.
+
