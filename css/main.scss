@@ -16,8 +16,10 @@ $dorian-dark: #002a35;
 $iron-dark: #b58900;
 $cloudy-dark: #c4c4c4;
 
+
 @import
     "mixins",
-    "default-dark",
+    "solarized",
+    "default",
     "404"
 ;

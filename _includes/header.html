@@ -1,3 +1,4 @@
+<script src="{{ "/assets/js/theme-switcher.js" | prepend: site.baseurl }}"></script>
 <header class="header">
     <div class="navigation">
         <a href="/" class="logo">{{ site.title }}</a>
@@ -20,5 +21,9 @@
                 <i class="fa fa-twitter"></i>
             </a>
         {% endif %}
+
+        <a href="#" id="theme-switcher" title="Toggle Color Scheme">
+            <i class="fa fa-adjust"></i>
+        </a>
     </ul>
 </header>

@@ -1,11 +1,11 @@
 /* =Base */
-body {
+body.default {
     font-family: 'Inconsolata', ;
     color: $iron;
     background-color: $dorian;
 }
 
-a {
+body.default a {
     color: $cloudy;
     font-weight: bold;
     text-decoration: none;
@@ -15,18 +15,18 @@ a {
     }
 }
 
-p {
+body.default p {
     font-size: 20px;
     line-height: 32px;
 }
 
-img {
+body.default img {
     margin: 40px auto;
     display: block;
     max-width: 100%;
 }
 
-blockquote {
+body.default blockquote {
     letter-spacing: 3px;
     margin:0px;
     margin-top: 40px;
@@ -58,32 +58,32 @@ blockquote {
     }
 }
 
-strong {
+body.default strong {
     color: $iron;
 }
 
 /* =Header */
-.wrapper {
-    max-width: 800px;
+body.default .wrapper {
+    max-width: 950px;
     margin: 100px auto;
 }
 
-.header {
+body.default .header {
     overflow: hidden;
 }
 
-.navigation {
+body.default .navigation {
     float:left;
 }
 
-.logo {
+body.default .logo {
     font-size: 50px;
     font-weight: 700;
     color: $iron;
     display: block;
 }
 
-.menu {
+body.default .menu {
     color: $cloudy;
     font-size: 18px;
     margin:0px;
@@ -105,7 +105,7 @@ strong {
     font-weight: 400;
 }
 
-.social-links {
+body.default .social-links {
     float:right;
     font-size: 24px;
     color: $cloudy;
@@ -118,7 +118,7 @@ strong {
 }
 
 /* =Titles */
-.page-title {
+body.default .page-title {
     margin-top:100px;
     margin-bottom:125px;
     text-align: center;
@@ -129,49 +129,49 @@ strong {
     font-size: 70px;
 }
 
-.page-title__subtitle {
+body.default .page-title__subtitle {
     font-weight: 400;
     font-size: 22px;
     color: $cloudy;
 }
 
-.post-title {
+body.default .post-title {
     margin-bottom: 110px;
 }
 
-.post-title__text {
+body.default .post-title__text {
     font-size: 40px;
 }
 
-.post-title__subtitle {
+body.default .post-title__subtitle {
     font-size: 20px;
 }
 
 /* =Post teasers */
 
-.list-posts {
+body.default .list-posts {
     list-style-type: none;
     padding: 0px;
 }
 
-.post-teaser {
+body.default .post-teaser {
     margin-bottom: 45px;
     font-weight: 700;
 }
 
-.post-teaser__title {
+body.default .post-teaser__title {
     font-size: 22px;
     color: $iron;
 }
 
-.post-teaser__date {
+body.default .post-teaser__date {
     font-size: 16px;
     float: right;
     vertical-align: middle;
     color: $cloudy;
 }
 
-.empty-post-list {
+body.default .empty-post-list {
     font-size: 22px;
     font-weight: 700;
     color: $iron;
@@ -179,7 +179,7 @@ strong {
 }
 
 /* =Explore */
-.explore {
+body.default .explore {
     text-align: center;
     color: $cloudy;
     margin-top: 140px;
@@ -195,7 +195,7 @@ strong {
     margin-top: 15px;
 }
 
-.categories {
+body.default .categories {
     list-style-type: none;
     margin-top: 15px;
     padding: 0px;
@@ -207,11 +207,11 @@ strong {
     font-size: 18px;
 }
 
-.categories__item a {
+body.default .categories__item a {
     color: $iron;
 }
 
-.categories__item:after {
+body.default .categories__item:after {
     content: "/";
     margin-left: 6px;
     color: $cloudy;
@@ -224,7 +224,7 @@ strong {
 
 
 /* =Post page */
-.about {
+body.default .about {
     color: $cloudy;
     margin-top: 70px;
     text-align: center;
@@ -252,21 +252,21 @@ strong {
         line-height: 1.6;
     }
 
-    .wrapper {
+    body.default .wrapper {
         width: 80%;
     }
 
     .navigation,
-    .social-links {
+    body.default .social-links {
         @include centered-block();
     }
 
-    .social-links {
+    body.default .social-links {
         font-size: 30px;
         margin-top: 35px;
     }
 
-    .page-title {
+    body.default .page-title {
         margin-top: 80px;
         margin-bottom: 60px;
     }
@@ -291,7 +291,7 @@ strong {
         @include centered-block();
     }
 
-    .explore {
+    body.default .explore {
         margin-top: 80px;
     }
 
