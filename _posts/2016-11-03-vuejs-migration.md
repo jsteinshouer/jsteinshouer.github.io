@@ -3,6 +3,8 @@ layout: post
 title:  "Notes on Migrating from Vue.js 1.x"
 subtitle: "using ColdBox Elixir"
 categories: [tools,CFML,javascript]
+date:   2016-11-03 00:00:00
+tags: [vuejs,cfml,javascript]
 ---
 
 I have been refactoring a Coldbox application as a Single Page Application using [Vue.js](http://vuejs.org/) using [ColdBox Elixir](https://www.ortussolutions.com/blog/introducing-coldbox-elixir-ui-asset-manager). I was origionally looking at ColdBox Elixir for compiling Sass. After reading the [docs](https://coldbox-elixir.ortusbooks.com/installation.html) I was curious and decided to look into Vue.js.
