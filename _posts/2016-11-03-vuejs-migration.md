@@ -2,7 +2,7 @@
 layout: post
 title:  "Notes on Migrating from Vue.js 1.x"
 subtitle: "using ColdBox Elixir"
-categories: [tools,CFML,javascript]
+categories: [javascript]
 date:   2016-11-03 00:00:00
 tags: [vuejs,cfml,javascript]
 ---
