@@ -44,3 +44,12 @@ Now I call the Coldbox event from my legacy code like so.
 ```markup
 <cfoutput>#application.cbController.runEvent(event="MyHandler.myEvent",eventArguments={widget=true})#</cfoutput>
 ```
+
+### UPDATE: 11/29/2016
+
+I found out that since my legacy code was not running inside a Colbox request that I also needed to populate the Coldbox RequestContext so the event had access to any url or form scope parameters.
+
+```markup
+<cfset application.cbController.getRequestService().requestCapture()>
+<cfoutput>#application.cbController.runEvent(event="MyHandler.myEvent",eventArguments={widget=true})#</cfoutput>
+```
