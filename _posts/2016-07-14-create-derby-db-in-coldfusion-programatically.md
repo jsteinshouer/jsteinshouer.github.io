@@ -4,6 +4,7 @@ title:  "Programatically Create an Apache Derby Database in Adobe Coldfusion"
 subtitle: ""
 categories: [CFML]
 date:   2016-07-14 11:56:01
+disqus: true
 tags: [cfml,coldfusion,derby]
 ---
 

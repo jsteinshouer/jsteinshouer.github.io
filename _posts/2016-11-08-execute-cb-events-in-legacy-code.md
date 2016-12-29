@@ -5,6 +5,7 @@ subtitle: ""
 categories: [cfml]
 date:   2016-11-08 00:00:00
 tags: [cfml,coldbox]
+disqus: true
 ---
 
 A quick tip for future Jason or anyone else who may work with Coldbox and legacy code (not MVC) running side-by-side. I found this well documented in the [Coldbox Documentation](https://coldbox.ortusbooks.com/content/full/event_handlers/executing_events.html) but wanted to post it as a quick reference for myself.

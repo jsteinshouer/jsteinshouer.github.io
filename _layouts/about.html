@@ -1,0 +1,25 @@
+---
+layout: default
+post_class: post-template page-template
+---
+
+{% include page/header.html %}
+
+<main class="content" role="main">
+    <article class="post">
+        <header class="post-header">
+            <figure class="author-image">
+			    <a class="img" href="{{ site.baseurl }}" style="background-image: url({{ site.author.avatar }})">
+			    <span class="hidden">{{site.author.name}}'s Picture</span></a>
+			</figure>
+        </header>
+
+        <h1 class="post-title">{{ page.title }}</h1>
+
+        <section class="post-content">
+            {{content}}
+        </section>
+
+    </article>
+
+</main>

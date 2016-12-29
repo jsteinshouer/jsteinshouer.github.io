@@ -4,6 +4,7 @@ title:  "Parsing XML with Node.js Streams Part II"
 date:   2016-07-18 23:56:45
 categories: [javascript]
 tags: [nodejs,streams]
+disqus: true
 ---
 
 In my previous post [Processing Large XML Data Feeds With Node.js](/javascript/2016/07/05/xml-to-csv-using-node-streams.html) I gave an example of calling a SOAP webservice then writing the response XML to file. I then used the [xml-stream] module to parse through the xml and create a CSV/TSV file. At the time I originally tried streaming directly from the http request to [xml-stream] but was getting an error.

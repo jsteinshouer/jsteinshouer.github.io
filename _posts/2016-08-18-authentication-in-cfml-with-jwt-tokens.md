@@ -5,6 +5,7 @@ subtitle: "Example using CF-JWT-Simple"
 date:   2016-08-18 21:24:00
 tags: [cfml,jwt,coldbox]
 categories: [CFML]
+disqus: true
 ---
 
 [JSON Web Tokens (JWT)](https://jwt.io/) are commonly used in single-sign-on solutions. They can also be used to authenticate single-page front-end applications with a back-end API. The benefit is that they are lightweight and can be sent with every request so they are stateless. That means server side sessions are not necessary. This makes scaling an application easier as well.

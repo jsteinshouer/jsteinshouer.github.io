@@ -1,23 +1,25 @@
-# Site settings
-title: Jason Steinshouer
-description: >
- Personal notes on web development and technology. If it helps someone else, thats nice too.
+name: Jason Steinshouer
+description: web development and technology
+meta_description: "blog on web development and technology"
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jasonsteinshouer.com" # the base hostname & protocol for your site
+markdown: kramdown
+highlighter: none
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://jasonsteinshouer.com'
+google_analytics: 'UA-80138644-1'
+gems: [jekyll-paginate]
 
 author:
-  fullname: Jason Steinshouer
-  #googleplus: https://www.google.com/+MotaquillahMaddane
+  fullname: 'Jason Steinshouer'
   github: jsteinshouer
   twitter: jdsteinshouer
   disqus: jasonsteinshouer
+  avatar: 'https://avatars0.githubusercontent.com/u/2914865'
 
-google_analytics: 'UA-80138644-1'
+# Details for the RSS feed generator
+url:            'http://jasonsteinshouer.com'
 
-# Handling Reading
-exclude: ["README.md", "README.html"]
 
-# Build settings
-highlighter: null
-markdown: kramdown
+exclude: ["README.md", "docker-compose.yml","LICENSE.txt"]

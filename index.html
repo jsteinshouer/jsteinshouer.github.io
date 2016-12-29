@@ -1,18 +1,41 @@
 ---
-layout: page
-title: Blog
-subtitle: Web development and technology
-sitemap:
-  priority: 0.9
+layout: default
+title: Home
+cover: false
+about: 'index.html'
 ---
 
-<ul class="list-posts">
-    {% for post in site.posts %}
-        <li class="post-teaser">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <span class="post-teaser__title">{{ post.title }}</span>
-                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
-            </a>
-        </li>
+{% include page/header.html %}
+
+<main id="content" class="content" role="main">
+
+
+    <div class="extra-pagination inner">
+        {% include pagination.html %}
+    </div>
+
+    {% for post in paginator.posts %}
+
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+        </section>
+        <footer class="post-meta">
+      
+            {% if post.tags.size > 0 %} 
+                {{ post.tags | array_to_sentence_string }} 
+            {% endif %}
+            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+                {{ post.date | date_to_string }}
+            </time> 
+        </footer>
+    </article>
+
     {% endfor %}
-</ul>
+
+    {% include pagination.html %}
+
+</main>

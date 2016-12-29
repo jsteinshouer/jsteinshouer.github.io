@@ -1,5 +1,7 @@
 _site
+.DS_Store
+*.swp
 .sass-cache
-.dropbox
-.vagrant
 desktop.ini
+.dropbox
+

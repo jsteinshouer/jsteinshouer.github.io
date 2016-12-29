@@ -5,6 +5,7 @@ subtitle: ""
 date:   2016-09-08 15:34:01
 categories: [tools]
 tags: [sql,sql server]
+disqus: true
 ---
 
 I was recently tasked with building a complex report. I wrote a SQL Server stored procedure to return the data. It accepts 5 parameters and has complicated logic. It seemed to run fine at first but I started noticing performance issues when certain parameters were used. The issues seemed to go away if the sql service was restarted. Also, when I executed it in the SQL Server Management Studio it ran fine but would never finish when the same stored procedure was executed from the application. 

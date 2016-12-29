@@ -1,0 +1,34 @@
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+            {% if page.logo %}
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                </a>
+            {% endif %}
+		<a class="main-nav" href="https://github.com/{{ site.author.github }}" target="_blank">
+			<i class="fa fa-github" aria-hidden="true"></i>
+			<span class="hidden">Github</span>
+        </a>
+        <a class="main-nav" href="https://twitter.com/{{ site.author.twitter }}" target="_blank">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+			<span class="hidden">Twitter</span>
+        </a>
+        <a class="main-nav" href="{{ site.baseurl }}feed.xml">
+        	<i class="fa fa-feed" aria-hidden="true"></i>
+			<span class="hidden">Subscribe</span>
+        </a>
+    </nav>
+
+    <div class="vertical">
+	    <div class="main-header-content inner">
+	        <h1 class="page-title">{{ site.name }}</h1>
+	        <h2 class="page-description">
+	            <a href='/about.html'> about </a>
+	            <a href='/'> blog </a>
+	            <a href='/tags/'> tags </a>
+	        </h2>
+	    </div>
+	</div>
+
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
