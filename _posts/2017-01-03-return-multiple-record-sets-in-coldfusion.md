@@ -3,7 +3,7 @@ layout: post
 title:  "Return Multiple Record Sets from a Query in Coldfusion"
 subtitle: ""
 date:   2017-01-03 00:00:00
-tags: [cfml,sql server]
+tags: [cfml,sql server,coldfusion]
 disqus: true
 ---
 
