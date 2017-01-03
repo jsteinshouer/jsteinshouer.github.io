@@ -3,7 +3,7 @@ description: web development and technology
 meta_description: "blog on web development and technology"
 
 markdown: kramdown
-highlighter: none
+highlighter: null
 logo: false
 paginate: 15
 baseurl: /
