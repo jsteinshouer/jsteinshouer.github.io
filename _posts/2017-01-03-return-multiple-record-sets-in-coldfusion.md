@@ -7,7 +7,7 @@ tags: [cfml,sql server,coldfusion]
 disqus: true
 ---
 
-In Adobe Coldfusion you can only return one record set from using [cfquery](http://cfdocs.org/cfquery) or [queryExecute](http://cfdocs.org/cfquery). If you need to write a stored procedure and use [cfstoredproc](http://cfdocs.org/cfstoredproc) to get back multiple record sets.
+In Adobe Coldfusion you can only return one record set from using [cfquery](http://cfdocs.org/cfquery) or [queryExecute](http://cfdocs.org/cfquery). If you need to return multiple record sets then you can write a stored procedure and use [cfstoredproc](http://cfdocs.org/cfstoredproc).
 
 ### Why is this needed? 
 
