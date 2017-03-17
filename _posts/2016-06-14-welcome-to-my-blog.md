@@ -5,7 +5,7 @@ subtitle: "My first blog post!"
 date:   2016-06-14 22:34:01
 categories: [tools]
 disqus: true
-tags: [jekyll,vagrant,github]
+tags: [Jekyll,Vagrant,Github]
 ---
 I decided to try out using [Jekyll][jekyll] to build a personal blog. It is a static site generator and also the engine behind [Github Pages][gh-pages]. This is appealing since I can host my site there for free. This first post focuses on setting up my development environment to get started with Jekyll.
 

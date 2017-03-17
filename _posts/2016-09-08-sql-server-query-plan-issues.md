@@ -4,7 +4,7 @@ title:  "Performance Issues with SQL Server Query Plans"
 subtitle: ""
 date:   2016-09-08 15:34:01
 categories: [tools]
-tags: [sql,sql server]
+tags: [SQL,MS SQL Server]
 disqus: true
 ---
 

@@ -5,7 +5,7 @@ subtitle: ""
 categories: [CFML]
 date:   2016-07-14 11:56:01
 disqus: true
-tags: [cfml,coldfusion,derby]
+tags: [CFML,Coldfusion,Derby]
 ---
 
 With [Lucee] you can add a datasource for the [H2] embedded database and if the database doesnt exist it will be created automatically. This can be handy if you have some automated setup routine for your application.

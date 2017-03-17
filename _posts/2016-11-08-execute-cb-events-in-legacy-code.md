@@ -4,7 +4,7 @@ title:  "Executing Coldbox Events in Legacy Code"
 subtitle: ""
 categories: [cfml]
 date:   2016-11-08 00:00:00
-tags: [cfml,coldbox]
+tags: [CFML,Coldbox]
 disqus: true
 ---
 

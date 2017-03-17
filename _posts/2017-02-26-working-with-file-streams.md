@@ -3,7 +3,7 @@ layout: post
 title:  "Working with File Streams in CFML/Java"
 subtitle: ""
 date:   2017-02-28 19:56:00
-tags: [cfml,java,streams]
+tags: [CFML,Java,Streams]
 disqus: true
 ---
 

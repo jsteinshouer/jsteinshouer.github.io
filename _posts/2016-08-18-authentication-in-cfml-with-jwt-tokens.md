@@ -3,7 +3,7 @@ layout: post
 title:  "Using JSON Web Tokens for Authentication in CFML"
 subtitle: "Example using CF-JWT-Simple"
 date:   2016-08-18 21:24:00
-tags: [cfml,jwt,coldbox]
+tags: [CFML,JWT,Coldbox]
 categories: [CFML]
 disqus: true
 ---

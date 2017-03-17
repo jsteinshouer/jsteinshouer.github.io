@@ -5,7 +5,7 @@ subtitle: "Convert XML to CSV or TSV using Node.js streams"
 categories: [javascript]
 date:   2016-07-05 11:00:01
 disqus: true
-tags: [nodejs,streams]
+tags: [NodeJS,Streams]
 ---
  
 At work we have a job that process a large data feed that involves consuming a SOAP webservice that returns 150MB+ of data. The job runs in Coldfusion which reads all the data into RAM and depending on how much RAM is available can cause Coldfusion to throw an out of memory error.

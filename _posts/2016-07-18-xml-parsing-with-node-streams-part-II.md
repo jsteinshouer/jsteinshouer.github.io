@@ -3,7 +3,7 @@ layout: post
 title:  "Parsing XML with Node.js Streams Part II"
 date:   2016-07-18 23:56:45
 categories: [javascript]
-tags: [nodejs,streams]
+tags: [NodeJS,Streams]
 disqus: true
 ---
 
