@@ -9,7 +9,7 @@ tags: [CFML,Testbox,Legacy Code,Refactoring]
 
 [Legacycode.rocks][legacy-code-rocks] is a great resource for anyone working with legacy code. Aside from a ton of useful information, it is also motivational because they really try to take away the stigma of working with legacy code and frame it as something to really be proud of. If you work with legacy code, you know it can be frustrating and difficult however it can also be very satisfying to figure out how a piece of code works and be able to improve it.
 
-One point they make, that is often overlooked, is that with a legacy application it isbeing maintained because it has proved to be valuable. The challenge of the maintainer is to improve it and keep it in a state where it continues to provide value.
+One point they make, that is often overlooked, is that with a legacy application it is being maintained because it has proved to be valuable. The challenge of the maintainer is to improve it and keep it in a state where it continues to provide value.
 
 I was listening to an [episode][legacy-code-rocks-podcast] of the [legacycode.rocks][legacy-code-rocks] podcast with guest [Llewellyn Falco][llewellyn-falco]. In that episode they were talking about [Approval Tests][llewellyn-falco-approval-tests]. 
 
