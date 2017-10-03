@@ -2,7 +2,7 @@
 layout: post
 title:  "Refactoring Legacy CFML with Approval Tests: Part II"
 subtitle: "How do I know if I broke it"
-date:   2017-09-13 06:35:00
+date:   2017-10-02 20:35:00
 disqus: true
 tags: [CFML,Testbox,Legacy Code,Refactoring]
 ---
@@ -161,4 +161,4 @@ it( "should display a list of to-do items", function(){
 
 After converted all the tests they should pass when ran. [Here](https://gist.github.com/jsteinshouer/25e1c988d9e5851c2191ee219593ca5e) is the fully coverted test suite.
 
-That was a lot of work but our legacy application is now running in ColdBox and our approval tests are passing so that means the output matches the output of the application we started with. In part III we can start removing the logic from our views and break up the application using the MVC design pattern. 
+Now that our application is running with Coldbox we can start using the MVC design pattern to refactor our application and continue to use the approval tests as a guide.
