@@ -4,7 +4,8 @@ title:  "Example of Using a CommandBox Task Runner to Run CFLint"
 subtitle: ""
 date:   2017-12-27 20:35:00
 disqus: true
-tags: [CFML]
+excerpt: "I created this gist that is a CommandBox Task Runner that takes a glob pattern and runs CFLint on any files that match."
+tags: [CFML,CFLint]
 ---
 
 I have been looking into [CFLint](https://github.com/cflint/CFLint) as a tool to help improve the quality of our teams CFML. Also, to aid in code reviews. 
