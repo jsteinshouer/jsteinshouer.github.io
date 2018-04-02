@@ -3,7 +3,7 @@ layout: about
 title: About me 
 ---
 
-I am a husband and father of two sons, living in Omaha, NE. I also do web development. 
+I am a husband and father, living in Omaha, NE. I also do web development. 
 
 **Do we really need another web development blog?**
 
