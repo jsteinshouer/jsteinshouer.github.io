@@ -105,7 +105,7 @@ I am also including some of my notes on things I thought were particularly inter
 
 > Practice practice. You just have to try it: learn, succeed, fail, learn, adjust, repeat. Rhythm and routine, rhythm and routine, rhythm and routine . . .
 
-- **Work harder not smarter** 
+- **Work smarter not harder** 
 
 > In 2017, we saw low performers lose some ground in stability. We suspect this is due to attempts to increase tempo (“work harder!”) which fail to address the underlying obstacles to improved overall performance (for example, rearchitecture, process improvement, and automation)
 
