@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"
-subtitle: "Book notes"
 date:   2018-05-08 06:00:00
 disqus: true
 excerpt: "The book Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations by Nicole Forsgren Ph.D., Jez Humble, and Gene Kim warn that organizations should be learning continuous delivery so they do not fall behind in a world where IT is critical to remain competitive in any industry."
@@ -108,18 +107,3 @@ I am also including some of my notes on things I thought were particularly inter
 - **Work smarter not harder** 
 
 > In 2017, we saw low performers lose some ground in stability. We suspect this is due to attempts to increase tempo (“work harder!”) which fail to address the underlying obstacles to improved overall performance (for example, rearchitecture, process improvement, and automation)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
