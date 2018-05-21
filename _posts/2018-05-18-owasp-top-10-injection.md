@@ -164,5 +164,6 @@ EXAMPLE OF BAD THINGS
 
 - [Top 10-2017 A1-Injection](https://www.owasp.org/index.php/Top_10-2017_A1-Injection)
 - [CFML Developer Security Guide](https://www.adobe.com/content/dam/acom/en/products/coldfusion/pdfs/cf11/cfml-developer-security-guide.pdf)
+- [Localhost Podcast](https://localhost.fm/2018/05/04/owasp-top-10.html)
 - [cfdocs.org](https://cfdocs.org/security)
 - [www.petefreitag.com](https://www.petefreitag.com/)
