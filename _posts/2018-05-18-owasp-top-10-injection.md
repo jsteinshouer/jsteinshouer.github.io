@@ -4,7 +4,7 @@ title:  "Secure CFML: OWASP TOP 10 2017 A1-Injection"
 date:   2018-05-18 13:40:00
 disqus: true
 excerpt: "In this post, I will focus on the #1 OWASP vulnerability which is Injection and how to prevent it in CFML applications."
-tags: [Security,CFML]
+tags: [Security,CFML,OWASP]
 ---
 
 I am working on some training materials for my team on preventing the OWASP Top 10 vulnerabilities when using CFML to write applications. I thought it would be good to try and do some corresponding blog posts to go along with the training.
