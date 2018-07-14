@@ -57,7 +57,7 @@ Dropping the password complexity requirements doesn't mean you should allow weak
 ### Resources
 
 - [Top 10-2017 A2-Broken Authentication - OWASP](https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication)
-- [NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html#memsecret)0-63-3/sp800-63b.html#appA)
+- [NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html#memsecret)
 - [xkcd: Password Strength](https://xkcd.com/936/)
 
 ### Related Posts

@@ -3,7 +3,7 @@ layout: post
 title:  "Implementing a Password Blacklist in CFML"
 date:   2018-06-30 10:17:00
 disqus: true
-excerpt: "Continuing the series on the OWASP Top 10 now we look at the #2 OWASP vulnerability which is Broken Authentication"
+excerpt: "the new guidelines for password requirements say to drop all the complexity rules and to create a blacklist of weak, common, and compromised passwords that cannot be used when a user creates a new account. Here is a quick example of one way this could be implemented in CFML."
 tags: [Security,CFML,OWASP]
 ---
 
