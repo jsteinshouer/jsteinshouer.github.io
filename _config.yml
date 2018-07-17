@@ -7,7 +7,7 @@ highlighter: null
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://jasonsteinshouer.com'
+domain_name: 'https://jasonsteinshouer.com'
 google_analytics: 'UA-80138644-1'
 gems: [jekyll-paginate]
 
@@ -19,7 +19,7 @@ author:
   avatar: 'https://avatars0.githubusercontent.com/u/2914865'
 
 # Details for the RSS feed generator
-url:            'http://jasonsteinshouer.com'
+url:            'https://jasonsteinshouer.com'
 
 
 exclude: ["README.md", "docker-compose.yml","LICENSE.txt"]
