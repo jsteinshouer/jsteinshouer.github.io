@@ -3,10 +3,14 @@ layout: about
 title: About me 
 ---
 
-I am a husband and father, living in Omaha, NE. I also do web development. 
+I am a husband and father, living in Omaha, NE. I am passionate about software development and am lucky enough to do that for a living. 
 
-**Do we really need another web development blog?**
+When not working I enjoy:
 
-No, but I am a developer and can't help but to reinvent the wheel.:)
+- Spending time with my family
+- Camping, fishing, and other outdoor activities
+- Playing guitar and listening to music
+- Cooking
+- I occasionally attempt to do some gluten-free home brewing
 
-It is more or less a platform for me to document things I am learning, working on, or just find interesting.
+This site is a platform for me to document things I am learning, working on, or just find interesting.
