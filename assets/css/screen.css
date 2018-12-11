@@ -690,7 +690,7 @@ margin on the iframe, cause it breaks stuff. */
 .no-cover .page-description a {
     color: rgba(0,0,0,0.5);
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .no-cover .page-description a:hover {
@@ -1363,12 +1363,14 @@ body:not(.post-template) .post-title {
     width: 45%;
     float: right;
     text-align: right;
+    margin-right: 20px;
 }
 
 .copyright {
     display: block;
     width: 45%;
     float: left;
+    margin-left: 20px;
 }
 
 

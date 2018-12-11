@@ -1,0 +1,48 @@
+---
+layout: default
+title: Projects
+---
+
+{% include page/header.html %}
+
+<main id="content" class="content" role="main">
+
+    {% for project in site.projects %}
+    <article class="post">
+      <header class="post-header">
+            <h2 class="post-title">
+                {% if project.content.size > 1 %}
+                <a href="{{ project.url }}">{{ project.name }}<a/>
+                {% else %}
+                {{ project.name }}
+                {% endif %}
+            </h2>
+        </header>
+        <section class="post-meta">
+            {% if project.icons.size > 0 %}
+                {% for icon in project.icons %}
+                    <i class="{{icon}} fa-2x"></i>
+                {% endfor %} 
+            {% endif %}
+        </section>
+        <section class="post-meta" style="font-size: 1.2em; margin-bottom: 20px">
+            {% if project.technology.size > 0 %}
+                    {{ project.technology| array_to_sentence_string }} 
+            {% endif %}
+        </section>
+        <section class="post-excerpt">
+            {{ project.description }}
+        </section>
+        <footer class="post-meta">
+            <a href="{{ project.code_url }}" target="_blank">View Code</a>
+            {% if project.project_url %}
+                | <a href="{{ project.project_url }}" target="_blank">View Project</a> 
+            {% endif %}
+            {% if project.content.size > 1 %}
+                | <a href="{{ project.url }}">More</a> 
+            {% endif %}
+        </footer>
+    </article>
+    {% endfor %}
+
+</main>

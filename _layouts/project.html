@@ -1,0 +1,39 @@
+---
+layout: default
+post_class: post-template page-template
+---
+
+{% include page/header.html %}
+
+<main class="content" role="main">
+    <article class="post">
+
+        <h1>{{ page.name }}</h1>
+
+        <header class="post-meta">
+            <a href="{{ page.code_url }}" target="_blank">View Code</a>
+            {% if page.project_url %}
+                | <a href="{{ page.project_url }}" target="_blank">View Project</a> 
+            {% endif %}
+        </header>
+
+        <section class="post-content">
+            {{content}}
+        </section>
+
+         <section class="post-meta">
+            {% if page.icons.size > 0 %}
+                {% for icon in page.icons %}
+                    <i class="{{icon}} fa-2x"></i>
+                {% endfor %} 
+            {% endif %}
+        </section>
+        <section class="post-meta" style="font-size: 1.2em; margin-bottom: 20px">
+            {% if page.technology.size > 0 %}
+                    {{ page.technology| array_to_sentence_string }} 
+            {% endif %}
+        </section>
+
+    </article>
+
+</main>

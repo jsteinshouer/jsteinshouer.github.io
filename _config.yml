@@ -11,6 +11,11 @@ domain_name: 'https://jasonsteinshouer.com'
 google_analytics: 'UA-80138644-1'
 plugins: [jekyll-paginate]
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
 author:
   fullname: 'Jason Steinshouer'
   github: jsteinshouer
