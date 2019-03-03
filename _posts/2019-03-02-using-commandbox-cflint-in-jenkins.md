@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "Using the CFLint for Static Analysis with Jenkins"
+title:  "Using CFLint for Static Analysis with Jenkins"
 date:   2019-03-02 22:58:00
 disqus: true
 tags: [CommandBox,CFLint,CFML,Jenkins]
 excerpt: I am going to walk through how you can use CFLint and Jenkins to do static code analysis on your CFML code as part of a CI process.
 ---
-
 
 There are a lot of good options when it comes to Continuous Integration(CI) systems these days. [Jenkins](https://jenkins.io/) is a time tested CI tool but has also evolved to adapt to modern development practices so I think it is still a great option when it comes to continuous integration. I am going to walk through how you can use [CFLint](https://github.com/cflint/CFLint) and Jenkins to do static code analysis on your CFML code as part of a CI process.
 
