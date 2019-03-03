@@ -10,13 +10,13 @@ excerpt: I am going to walk through how you can use CFLint and Jenkins to do sta
 
 There are a lot of good options when it comes to Continuous Integration(CI) systems these days. [Jenkins](https://jenkins.io/) is a time tested CI tool but has also evolved to adapt to modern development practices so I think it is still a great option when it comes to continuous integration. I am going to walk through how you can use [CFLint](https://github.com/cflint/CFLint) and Jenkins to do static code analysis on your CFML code as part of a CI process.
 
-## CFLint
+### CFLint
 
 CFLint is a tool for doing static analysis on CFML code. It allows you to use rules to check code for possible bugs and also to ensure that best practices and standards are being met. Hopefully, you and your developers are using CFLint or another tool as you develop but it is also a good process to run as part of your continuous integration process.
 
 [CommandBox-CFLint](https://github.com/jsteinshouer/commandbox-cflint) is a CommandBox module that packages the CFLint tool. In this tutorial, I use it with CommandBox to easily install and run CFLlint from within Jenkins.
 
-## Jenkins Setup
+### Jenkins Setup
 
 For this demo, I am running Jenkin in Docker. The command below I used is based on information in [this tutorial](https://jenkins.io/doc/tutorials/build-a-node-js-and-react-app-with-npm/#run-jenkins-in-docker). It should work pretty much the same if you have a physical server. The commands may be slightly different depending on if you are using Linux or Windows. Here is the command I used to run it on my Windows machine.
 
@@ -40,7 +40,7 @@ Your initial admin password can be found in this file.
 The first time you sign in you will go through a setup process. Here you will want to install all the recommended plugins. You can optionally set up additional users. 
 Once you are logged into the admin you will want to set up a Job. To do this follow [these steps](https://jenkins.io/doc/tutorials/build-a-node-js-and-react-app-with-npm/#create-your-pipeline-project-in-jenkins) for your repository. 
 
-## Pipeline Configuration
+### Pipeline Configuration
 
 It is common in modern CI systems for the configuration to be stored in a text file that can be checked into the source control system. With the introduction of the Jenkins pipeline plugins, it is possible to define your build configuration in a Jenkinsfile. This is Groovy script with a domain specific language (DSL) for Jenkins. 
 
@@ -118,7 +118,7 @@ Then if I fix the errors and commit them to source control the job will run agai
 ![Jenkins Success](https://s3.us-west-2.amazonaws.com/jasonsteinshouer/images/2019-03-02_22h35_20.png)
 
 
-### Jenkinsfile
+#### Jenkinsfile
 
 For reference here is the whole Jenkinsfile I used for this example.
 
