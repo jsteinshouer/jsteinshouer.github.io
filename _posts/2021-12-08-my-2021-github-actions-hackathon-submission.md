@@ -43,4 +43,4 @@ I am running it on the AWS [Graviton2](https://aws.amazon.com/pm/ec2-graviton/) 
 
 I do not think there is anything revolutionary here nor do I expect to win a contest prize. For me it was more about learning from the process of creating it. 
 
-Sadly, I just realized my last blog post was exactly one year ago 😞. I am hoping to change that in 2022. Maybe this project will be fodder for some new project.
+Sadly, I just realized my last blog post was exactly one year ago 😞. I am hoping to change that in 2022. Maybe this project will be fodder for some new blog entries.
